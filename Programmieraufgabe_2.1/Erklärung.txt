@@ -1,0 +1,7 @@
+Es scheint, dass die Methoden von verschiedenen Ausgangspunkten gg. den Wert 
+konvergieren. 
+Es ist also so, dass die Methoden sich nur darin unterscheiden, wie schnell die 
+Reihe gegen die e Funktion konvergiert. Somit ist anzunehmen, dass 
+die Reihe von exp(-1) sehr schnell gegen ihren Wert konvergiert. Wo 
+gegen die Reihe von exp(-7) wohl sehr lange braucht. 
+Schnell konvergieren heißt in diesem Zusammenhang für kleine k.  

@@ -1,0 +1,190 @@
+####
+H10 = hilb(10) #in mathlab vor definiert Hilbertmatrix schlecht kondizoniert
+h10 = ones(10,1) #Einheits matix 
+
+matrix divison immer mit "/" sonst ungenau 
+###
+
+Bsp:
+function x = kommentiert(A,b)
+x ist lsgvektor 
+A Matrix, b vektor
+###
+if, for, while schleifen immer einrücken 
+###
+Viel Kommentieren 
+###
+differenzieren in mathlab 
+Bsp:
+function differentieren()
+
+syms x y;
+f = x^2 +y 
+a = diff(f,y) differenziert nach y braucht aber tool mit symbolen 
+
+bsp ende 
+
+integrieren einfach mit int
+
+###
+
+x^3 def als funktion: f=@(x) x.^3
+
+numerischer integrationsbefehl
+quad(@(x) f(x),-1,1)
+
+###
+
+tic;
+
+
+
+toc  gibt die laufzeit des m-skripts
+
+if-else abfragen sehr langsam 
+
+###
+
+bar(x,y) gibt histogram
+
+###
+
+3d plot
+x und y def 
+dann:
+[XY]=meshgrid(x,y) gibt ein Schachbrettmuster
+Bsp Z:
+Z=10-sqrt(X.^2+Y.^2)
+surf(x,y,Z)
+shading interp;
+
+###
+2D plot
+
+plot(x,y)
+fplot('##fkt##',x)
+ezplot('##fkt##', x)
+
+
+###
+
+Newton interpolation 
+x = 
+y = 
+
+for n=8:5:18
+#equidistanten
+xeqi = linspace 
+yequi = 1./(1+25^xEqui.^2)
+cequi = my newtonInterpol(xequi,yequi)
+qequi= mynewtoninterpolhorner(xequi,yequi,x)
+
+function [c] = mynewtoninterpol(x,y)	#gibt newton koeffizienten
+n=length(x)
+c =y
+
+	for k=1 :n-1
+		c(k+1:n) = (c(k+1:n)-c(k))./(x(k+1:n)-x(k));
+	end
+end
+
+
+function[y] = mynewtoninterpolhorner(x,c,z)
+n = length(x)
+y = c(n)*ones(size(z);
+	for k=n-1:-1:1
+		y=(z-x(k)).*y+c(k);
+	end
+end
+
+###
+Einschub Hornerschema:
+f(X) = 4x^2 -5x+1
+Hornerf(x) = (4x+(-5))x+1
+###
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

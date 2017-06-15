@@ -1,0 +1,5 @@
+Die Newtoninterpolation konvergiert schneller gegen die Funktionen für 
+kleine n (< 8) und die Fehler sind auch geringer. Die Fehler der stückweisen 
+Interpolation springen zwischenzeitlich sind aber global ehr konst. 
+Die Plots zeigen, dass die stückweise interpolation nicht für negative x Werte geeignet ist.
+Die Expotentialfunktion lässt sich von beiden Methoden ehr schlecht interpolieren.

@@ -1,0 +1,2 @@
+Aufgrund der vielen Operationen maximieren sich die Fehler des Horner Schema. 
+Daraus folgt das " Verwischen" der Funktion.
