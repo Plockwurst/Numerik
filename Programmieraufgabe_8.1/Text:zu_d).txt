@@ -1,0 +1,8 @@
+d) 
+Für das Bisektionsverfahren wird ein mit 1/2^(n+1) abnehmender Fehler angenommen:
+|xk -x0| <= (b-a)/2^(n+1) 
+Logarithmetisiert sollte also eine Gerade zu beobachten seien, dies ist auch 
+zu beobachten.
+Für das Newton Verfahren wird ein quadratisch abfallender Fehler angenommen :
+|xk -x0| <= (2m / M )* q^(2k) mit q < 1 
+Der zu beobachtende  Graph ist parabellförmig.
